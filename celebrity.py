@@ -24,7 +24,7 @@ api = tweepy.API(auth)
 
 #This function returns days of the week based on the number returned by datetime.weekday()
 # Param: 	integer for the day of the week
-def weekdayf(weekday):
+def weekdayf(weekday): 
     return{
         0: 'Monday',
         1: 'Tuesday',
